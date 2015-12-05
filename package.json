@@ -1,7 +1,7 @@
 {
-  "name": "foundation-sites-template",
+  "name": "kangu-minimum-viable-product-version-0.1",
   "version": "1.0.0",
-  "description": "Basic template for a new Foundation for Sites project.",
+  "description": "The visual representation of the story behind kangu",
   "main": "gulpfile.js",
   "devDependencies": {
     "gulp": "^3.9.0",

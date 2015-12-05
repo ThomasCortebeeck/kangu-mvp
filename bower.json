@@ -4,7 +4,7 @@
   "authors": [
     "Maarten Van Loock <maartenphone@gmail.com>"
   ],
-  "description": "the visual representation of the story behind kangu",
+  "description": "The visual representation of the story behind kangu",
   "main": "index.html",
   "moduleType": [],
   "license": "MIT",
