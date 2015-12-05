@@ -1,0 +1,22 @@
+{
+  "name": "kangu-mvp",
+  "homepage": "https://github.com/kangube/kangu-mvp",
+  "authors": [
+    "Maarten Van Loock <maartenphone@gmail.com>"
+  ],
+  "description": "the visual representation of the story behind kangu",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "foundation-sites": "~6.0.5",
+    "motion-ui": "~1.1.1"
+  }
+}

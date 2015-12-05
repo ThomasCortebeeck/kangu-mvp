@@ -1,0 +1,8 @@
+// Importing foundation scss files
+@import '../../bower_components/foundation-sites/scss/foundation';
+@include foundation-everything;
+
+// Importing all modules
+@import 'modules/colors';
+@import 'modules/functions';
+@import 'modules/mixins';
