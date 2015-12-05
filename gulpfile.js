@@ -25,7 +25,7 @@ gulp.task('move-concat-foundation-js-dependencies', function() {
         ('bower_components/what-input/what-input.min.js')
         ]).pipe(plumber())
             .pipe(concat('thirdparty.js'))
-            .pipe(gulp.dest('public/js'));
+            .pipe(gulp.dest('resources/js/thirdparty'));
 });
 
 // Compiling all sass files of the mvp
@@ -35,12 +35,13 @@ gulp.task('sass', function () {
         .pipe(plumber())
         .pipe(sass())
         .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
-        .pipe(gulp.dest('public/css'));
+        .pipe(gulp.dest('public/css'))
+        .pipe(gulp.dest('resources/temp_css'));
 });
 
 // Minifying all css files in the public folder
 gulp.task('minify-css', function() {
-  return gulp.src('public/css/*.css')
+  return gulp.src('resources/temp_css/minimum-viable-product.css')
     .pipe(minifyCSS())
     .pipe(rename({ extname: '.min.css' }))
     .pipe(gulp.dest('public/css'));
@@ -48,10 +49,12 @@ gulp.task('minify-css', function() {
 
 // Minifying all js files in the public js folder
 gulp.task('minify-js', function() {
-  return gulp.src('public/js/*.js')
-    .pipe(uglify())
-    .pipe(rename({ extname: '.min.js' }))
-    .pipe(gulp.dest('public/js'));
+  return gulp.src([
+        ('resources/js/thirdparty/*.js'),
+        ('resources/js/custom/*.js')
+        ]).pipe(uglify())
+          .pipe(rename({ extname: '.min.js' }))
+          .pipe(gulp.dest('public/js'));
 });
 
 // Watching the scss src folder for changes
