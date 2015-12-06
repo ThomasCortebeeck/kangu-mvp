@@ -1,0 +1,71 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'gulp-livereload--save-dev' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'gulp-livereload--save-dev', null ]
+6 verbose cache add name=undefined spec="gulp-livereload--save-dev" args=["gulp-livereload--save-dev",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'gulp-livereload--save-dev',
+7 verbose parsed url   path: 'gulp-livereload--save-dev',
+7 verbose parsed url   href: 'gulp-livereload--save-dev' }
+8 silly lockFile d4fda788-gulp-livereload-save-dev gulp-livereload--save-dev
+9 verbose lock gulp-livereload--save-dev /Users/maartenvanloock/.npm/d4fda788-gulp-livereload-save-dev.lock
+10 silly lockFile d4fda788-gulp-livereload-save-dev gulp-livereload--save-dev
+11 silly lockFile d4fda788-gulp-livereload-save-dev gulp-livereload--save-dev
+12 verbose addNamed [ 'gulp-livereload--save-dev', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile e3c4ba11-gulp-livereload-save-dev gulp-livereload--save-dev@
+15 verbose lock gulp-livereload--save-dev@ /Users/maartenvanloock/.npm/e3c4ba11-gulp-livereload-save-dev.lock
+16 silly addNameRange { name: 'gulp-livereload--save-dev', range: '*', hasData: false }
+17 verbose request where is /gulp-livereload--save-dev
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id d15c16bcc51d30e7
+20 verbose url raw /gulp-livereload--save-dev
+21 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-livereload--save-dev' ]
+22 verbose url resolved https://registry.npmjs.org/gulp-livereload--save-dev
+23 verbose request where is https://registry.npmjs.org/gulp-livereload--save-dev
+24 info trying registry request attempt 1 at 15:49:23
+25 http GET https://registry.npmjs.org/gulp-livereload--save-dev
+26 http 404 https://registry.npmjs.org/gulp-livereload--save-dev
+27 silly registry.get cb [ 404,
+27 silly registry.get   { 'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=0',
+27 silly registry.get     'content-length': '2',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     date: 'Sun, 06 Dec 2015 14:49:24 GMT',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     connection: 'keep-alive',
+27 silly registry.get     'x-served-by': 'cache-ams4143-AMS',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1449413363.890318,VS0,VE406' } ]
+28 silly lockFile e3c4ba11-gulp-livereload-save-dev gulp-livereload--save-dev@
+29 silly lockFile e3c4ba11-gulp-livereload-save-dev gulp-livereload--save-dev@
+30 error 404 Not Found
+30 error 404
+30 error 404 'gulp-livereload--save-dev' is not in the npm registry.
+30 error 404 You should bug the author to publish it
+30 error 404 It was specified as a dependency of 'kangu-minimum-viable-product-version-0.1'
+30 error 404
+30 error 404 Note that you can also install from a
+30 error 404 tarball, folder, or http url, or git url.
+31 error System Darwin 14.5.0
+32 error command "node" "/usr/local/bin/npm" "install" "gulp-livereload--save-dev"
+33 error cwd /Users/maartenvanloock/Documents/projects/kangu-mvp
+34 error node -v v0.10.36
+35 error npm -v 1.4.28
+36 error code E404
+37 verbose exit [ 1, true ]

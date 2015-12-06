@@ -8,7 +8,8 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
     rename = require('gulp-rename'),
     runSequence = require('run-sequence'),
-    autoprefixer = require('gulp-autoprefixer');
+    autoprefixer = require('gulp-autoprefixer'),
+    livereload = require('gulp-livereload');
 
 // Setting up the server
 gulp.task('connect', function() {
@@ -36,14 +37,16 @@ gulp.task('sass', function () {
         .pipe(sass())
         .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
         .pipe(gulp.dest('public/css'))
-        .pipe(gulp.dest('resources/temp_css'));
+        .pipe(livereload())
+        .pipe(gulp.dest('resources/temp_css'))
+        .pipe(livereload());
 });
 
 // Minifying all css files in the public folder
 gulp.task('minify-css', function() {
   return gulp.src('resources/temp_css/minimum-viable-product.css')
     .pipe(minifyCSS())
-    .pipe(rename({ extname: '.min.css' }))
+    .pipe(rename({suffix: '.min'}))
     .pipe(gulp.dest('public/css'));
 });
 
@@ -60,10 +63,15 @@ gulp.task('minify-js', function() {
 // Watching the scss src folder for changes
 gulp.task('watch', function () {
     console.log("Watching for changes");
-    gulp.watch("resources/scss/**/*.scss");
+    livereload.listen();
+    gulp.watch("resources/scss/**/*.scss", ['sass']);
 });
 
 // Run all tasks in the particular order
 gulp.task('default', function () {
-    gulp.start('connect', 'move-concat-foundation-js-dependencies', 'sass', 'minify-css', 'minify-js', 'watch');
+    gulp.start('compile', 'watch');
+});
+
+gulp.task('compile', function () {
+    gulp.start('connect', 'move-concat-foundation-js-dependencies', 'sass', 'minify-css', 'minify-js');
 });
