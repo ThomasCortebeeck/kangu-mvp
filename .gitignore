@@ -1,4 +1,6 @@
 /bower_components
 /node_modules
-/public/*
+/public/css/*
+/public/js/*
+!/public/assets/*
 !/public/index.html

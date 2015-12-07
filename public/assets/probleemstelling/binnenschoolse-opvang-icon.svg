@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="101px" height="101px" viewBox="0 0 101 101" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15855) - http://www.bohemiancoding.com/sketch -->
+    <title>School icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Mockups---version-0.1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="MVP---option-2" sketch:type="MSArtboardGroup" transform="translate(-785.000000, -1020.000000)">
+            <g id="Probleemstelling" sketch:type="MSLayerGroup" transform="translate(-1.000000, 723.000000)">
+                <g id="Binnenschoolse-opvang" transform="translate(705.029283, 276.000000)" sketch:type="MSShapeGroup">
+                    <g id="Content" transform="translate(0.527086, 0.500000)">
+                        <g id="School-icon" transform="translate(80.000000, 21.000000)">
+                            <circle id="Oval-32" fill="#4AA0D5" cx="50.6632504" cy="50" r="50"></circle>
+                            <g id="Icon" transform="translate(25.663250, 25.500000)" stroke="#FFFFFF" stroke-width="1.5" stroke-linejoin="round">
+                                <path d="M36.7722603,12.5428082 L13.2277397,12.5428082 L13.2277397,36.0873288 L36.7722603,36.0873288 L36.7722603,12.5428082 Z" id="Stroke-5996"></path>
+                                <path d="M13.2277397,36.0873288 L36.7722603,36.0873288 L36.7722603,48.9297945 L13.2277397,48.9297945 L13.2277397,36.0873288 Z" id="Stroke-5997"></path>
+                                <path d="M0.385273973,35 L49.567637,35" id="Stroke-5998" stroke-linecap="round"></path>
+                                <path d="M0.385273973,25 L12.1575342,25" id="Stroke-5999" stroke-linecap="round"></path>
+                                <path d="M37.8424658,25 L49.567637,25" id="Stroke-6000" stroke-linecap="round"></path>
+                                <path d="M35.7020548,48.9297945 L45.3339041,48.9297945 L45.3339041,25.385274 L36.7722603,25.385274" id="Stroke-6001"></path>
+                                <path d="M14.2979452,48.9297945 L4.66609589,48.9297945 L4.66609589,25.385274 L13.2277397,25.385274" id="Stroke-6002"></path>
+                                <path d="M41.0530822,8.2619863 L8.94691781,8.2619863 L8.94691781,12.5428082 L41.0530822,12.5428082 L41.0530822,8.2619863 Z" id="Stroke-6003"></path>
+                                <path d="M29.7089041,4.28082192 L23.2876712,4.28082192 L23.2876712,0 L29.7089041,0 L29.7089041,4.28082192 Z" id="Stroke-6004"></path>
+                                <path d="M23,0.770547945 L23,8.2619863" id="Stroke-6005"></path>
+                                <path d="M21.7893836,21.1044521 L17.5085616,21.1044521 L17.5085616,16.8236301 L21.7893836,16.8236301 L21.7893836,21.1044521 Z" id="Stroke-6006"></path>
+                                <path d="M32.4914384,21.1044521 L28.2106164,21.1044521 L28.2106164,16.8236301 L32.4914384,16.8236301 L32.4914384,21.1044521 Z" id="Stroke-6007"></path>
+                                <path d="M21.7893836,29.6660959 L17.5085616,29.6660959 L17.5085616,25.385274 L21.7893836,25.385274 L21.7893836,29.6660959 Z" id="Stroke-6008"></path>
+                                <path d="M32.4914384,29.6660959 L28.2106164,29.6660959 L28.2106164,25.385274 L32.4914384,25.385274 L32.4914384,29.6660959 Z" id="Stroke-6009"></path>
+                                <path d="M21.7893836,44.6489726 L17.5085616,44.6489726 L17.5085616,40.3681507 L21.7893836,40.3681507 L21.7893836,44.6489726 Z" id="Stroke-6010"></path>
+                                <path d="M32.4914384,44.6489726 L28.2106164,44.6489726 L28.2106164,40.3681507 L32.4914384,40.3681507 L32.4914384,44.6489726 Z" id="Stroke-6011"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

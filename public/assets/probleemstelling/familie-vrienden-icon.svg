@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="101px" height="100px" viewBox="0 0 101 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15855) - http://www.bohemiancoding.com/sketch -->
+    <title>House icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Mockups---version-0.1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="MVP---option-2" sketch:type="MSArtboardGroup" transform="translate(-182.000000, -1020.000000)">
+            <g id="Probleemstelling" sketch:type="MSLayerGroup" transform="translate(-1.000000, 723.000000)">
+                <g id="Familie-&amp;-vrienden" transform="translate(102.150805, 276.000000)" sketch:type="MSShapeGroup">
+                    <g id="Content" transform="translate(0.029283, 0.385892)">
+                        <g id="House-icon" transform="translate(81.000000, 20.000000)">
+                            <circle id="Oval-32" fill="#4AA0D5" cx="50.1610542" cy="50.6141079" r="50"></circle>
+                            <g id="Icon" transform="translate(25.161054, 30.114108)" stroke="#FFFFFF" stroke-width="1.5" stroke-linejoin="round">
+                                <path d="M0.174015411,40 L49.4034675,40" id="Stroke-1" stroke-linecap="round"></path>
+                                <path d="M42.9815925,18.4310788 L6.59460616,18.4310788 L6.59460616,39.8351884 L42.9815925,39.8351884 L42.9815925,18.4310788 Z" id="Stroke-2" stroke-linecap="round"></path>
+                                <path d="M24.7887414,0.237371575 L0.174015411,18.4308647 L49.4034675,18.4308647 L24.7887414,0.237371575 L24.7887414,0.237371575 Z" id="Stroke-3" stroke-linecap="round"></path>
+                                <path d="M42.9822346,13.7037671 L42.9822346,3.44691781 L36.5610017,3.44691781 L36.5610017,8.96489726" id="Stroke-4"></path>
+                                <path d="M19.4370719,24.8523116 L13.015839,24.8523116 L13.015839,35.5543664 L19.4370719,35.5543664 L19.4370719,24.8523116 Z" id="Stroke-5"></path>
+                                <path d="M36.5603596,31.2735445 L25.8583048,31.2735445 L25.8583048,24.8523116 L36.5603596,24.8523116 L36.5603596,31.2735445 Z" id="Stroke-6"></path>
+                                <path d="M21.5774829,39.8351884 L10.8754281,39.8351884 L10.8754281,35.5543664 L21.5774829,35.5543664 L21.5774829,39.8351884 Z" id="Stroke-7"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
