@@ -6,3 +6,11 @@
 @import 'modules/colors';
 @import 'modules/functions';
 @import 'modules/mixins';
+
+// Importing all partials
+@import 'partials/header';
+@import 'partials/divider';
+@import 'partials/subline';
+
+// Importing all sections
+@import 'sections/updates';

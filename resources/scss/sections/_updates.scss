@@ -1,0 +1,48 @@
+.row-update {
+	background-color: $dark-grey;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.fullWidth {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: initial;
+	background-color: $dark-grey;
+}
+
+.input-group {
+	margin-bottom: 60px;
+
+	.input-group-field {
+		height: 40px;
+		border-radius: 3px 0 0 3px;
+		font-family: "open-sans", sans-serif;
+		font-weight: italic;
+		color: $text-dark-grey;
+		border: 1px solid $border-color-dark-grey;
+	}
+
+	.input-group-button .button {
+		background-color: $light-red;
+		color: $white;
+		border-radius: 0 3px 3px 0;
+	}
+
+}
+
+.social-divider {
+	border: 2px solid $white;
+	border-radius: 2px;
+	margin-bottom: 30px;
+	width: 40px;
+}
+
+.icon {
+	margin: 0 6px 0 6px;
+}
+
+.social-icon-container {
+	text-align: center;
+}

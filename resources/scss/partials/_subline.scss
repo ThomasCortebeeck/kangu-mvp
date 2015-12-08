@@ -1,0 +1,17 @@
+.subline-white {
+	font-family: "open-sans", sans-serif;
+	font-size: rem-calc(21);
+	line-height: rem-calc(31.5);
+	color: $text-white;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.subline-dark-grey {
+	font-family: "open-sans", sans-serif;
+	font-size: rem-calc(21);
+	line-height: rem-calc(31.5);
+	color: $text-dark-grey;
+	text-align: center;
+	margin-bottom: 60px;
+}
