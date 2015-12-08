@@ -7,3 +7,9 @@
 	padding-top: 60px;
 	padding-bottom: 0;
 }
+
+@media screen and #{breakpoint(small down)} {
+	#adverts-preview {
+		margin-bottom: 1px;
+	}
+}
