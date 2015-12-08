@@ -29,9 +29,9 @@ gulp.task('move-image-icon-dependencies', function() {
 gulp.task('move-concat-foundation-js-dependencies', function() {
     console.log('Moving and concatinating all of the required js dependencies of foundation 6');
     gulp.src([
-        ('bower_components/jquery/dist/jquery.min.js'),
-        ('bower_components/foundation-sites/dist/foundation.min.js'),
-        ('bower_components/what-input/what-input.min.js')
+        ('bower_components/jquery/dist/jquery.js'),
+        ('bower_components/foundation-sites/dist/foundation.js'),
+        ('bower_components/what-input/what-input.js')
         ]).pipe(plumber())
             .pipe(concat('thirdparty.js'))
             .pipe(gulp.dest('resources/js/thirdparty'));
