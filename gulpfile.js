@@ -17,6 +17,14 @@ gulp.task('connect', function() {
     connect.server({ base: 'public', port: 8080 });
 });
 
+// Moving all of the required image and icon assets from the resources folder to the public folder
+gulp.task('move-image-icon-dependencies', function() {
+    console.log('Moving all of the required image and icon assets from the resources folder to the public folder');
+    gulp.src('resources/assets/**/*')
+        .pipe(plumber())
+        .pipe(gulp.dest('public/assets'));
+});
+
 // Moving and concatinating all of the required js dependencies of foundation 6
 gulp.task('move-concat-foundation-js-dependencies', function() {
     console.log('Moving and concatinating all of the required js dependencies of foundation 6');
@@ -73,5 +81,5 @@ gulp.task('default', function () {
 });
 
 gulp.task('compile', function () {
-    gulp.start('connect', 'move-concat-foundation-js-dependencies', 'sass', 'minify-css', 'minify-js');
+    gulp.start('connect', 'move-image-icon-dependencies', 'move-concat-foundation-js-dependencies', 'sass', 'minify-css', 'minify-js');
 });
