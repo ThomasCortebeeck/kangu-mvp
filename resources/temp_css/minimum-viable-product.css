@@ -3178,6 +3178,14 @@ table.hover tr:nth-of-type(even):hover {
   line-height: 2.6875rem;
   text-align: center; }
 
+.header-dark-grey {
+  font-family: "sofia-pro-soft", sans-serif;
+  font-weight: regular;
+  color: #454553;
+  font-size: 2.25rem;
+  line-height: 2.6875rem;
+  text-align: center; }
+
 .header-divider {
   border: solid 3px #F37A7D;
   border-radius: 3px;
@@ -3190,6 +3198,14 @@ table.hover tr:nth-of-type(even):hover {
   font-size: 1.3125rem;
   line-height: 1.96875rem;
   color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 60px; }
+
+.subline-dark-grey {
+  font-family: "open-sans", sans-serif;
+  font-size: 1.3125rem;
+  line-height: 1.96875rem;
+  color: #454553;
   text-align: center;
   margin-bottom: 60px; }
 
