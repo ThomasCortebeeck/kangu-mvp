@@ -1,17 +1,12 @@
 .full-width-height {
-	width: 100vw;
-	height: 100vh;
+	min-width: 100vw;
+	min-height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-bottom: 30px;
-}
-
-#header-preview {
-	z-index: 0;
-	position: absolute;
-	left: 0;
-	top: 0;
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: hidden;
 }
 
 #header-kangu {
@@ -20,5 +15,5 @@
 	font-family: "sofia-pro-soft", sans-serif;
 	font-weight: bold;
 	color: $text-white;
-	font-size: rem-calc(80);
+	font-size: rem-calc(85);
 }
