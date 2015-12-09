@@ -15,3 +15,17 @@
 	line-height: rem-calc(43);
 	text-align: center;
 }
+
+@media screen and #{breakpoint(medium down)} {
+	.header-white, .header-dark-grey {
+		font-size: rem-calc(30);
+		line-height: rem-calc(36);
+	}
+}
+
+@media screen and #{breakpoint(large only)} {
+	.header-white, .header-dark-grey {
+		font-size: rem-calc(36);
+		line-height: rem-calc(43);
+	}
+}

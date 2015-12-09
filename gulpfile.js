@@ -17,16 +17,36 @@ gulp.task('connect', function() {
     connect.server({ base: 'public', port: 8080 });
 });
 
-// Moving and concatinating all of the required js dependencies of foundation 6
+// Moving all of the required image and icon assets from the resources folder to the public folder
+gulp.task('move-image-icon-dependencies', function() {
+    console.log('Moving all of the required image and icon assets from the resources folder to the public folder');
+    gulp.src('resources/assets/**/*')
+        .pipe(plumber())
+        .pipe(gulp.dest('public/assets'));
+});
+
+// Moving and concatinating all of the required thirdparty js dependencies
 gulp.task('move-concat-foundation-js-dependencies', function() {
-    console.log('Moving and concatinating all of the required js dependencies of foundation 6');
+    console.log('Moving and concatinating all of the required thirdparty js dependencies');
     gulp.src([
         ('bower_components/jquery/dist/jquery.min.js'),
         ('bower_components/foundation-sites/dist/foundation.min.js'),
-        ('bower_components/what-input/what-input.min.js')
+        ('bower_components/what-input/what-input.min.js'),
+        ('bower_components/wow/dist/wow.min.js')
         ]).pipe(plumber())
             .pipe(concat('thirdparty.js'))
             .pipe(gulp.dest('resources/js/thirdparty'));
+});
+
+// Concatinating all of the custom js files
+gulp.task('concat-custom-js', function() {
+    console.log('Concatinating all of the custom js files');
+    gulp.src([
+        ('resources/js/custom/app.js'),
+        ('resources/js/custom/wow.js')
+        ]).pipe(plumber())
+            .pipe(concat('custom.js'))
+            .pipe(gulp.dest('resources/js/custom'));
 });
 
 // Compiling all sass files of the mvp
@@ -44,7 +64,7 @@ gulp.task('sass', function () {
 
 // Minifying all css files in the public folder
 gulp.task('minify-css', function() {
-  return gulp.src('resources/temp_css/minimum-viable-product.css')
+  return gulp.src('resources/temp_css/*.css')
     .pipe(minifyCSS())
     .pipe(rename({suffix: '.min'}))
     .pipe(gulp.dest('public/css'));
@@ -54,7 +74,7 @@ gulp.task('minify-css', function() {
 gulp.task('minify-js', function() {
   return gulp.src([
         ('resources/js/thirdparty/*.js'),
-        ('resources/js/custom/*.js')
+        ('resources/js/custom/custom.js')
         ]).pipe(uglify())
           .pipe(rename({ extname: '.min.js' }))
           .pipe(gulp.dest('public/js'));
@@ -73,5 +93,5 @@ gulp.task('default', function () {
 });
 
 gulp.task('compile', function () {
-    gulp.start('connect', 'move-concat-foundation-js-dependencies', 'sass', 'minify-css', 'minify-js');
+    gulp.start('connect', 'move-image-icon-dependencies', 'move-concat-foundation-js-dependencies', 'concat-custom-js', 'sass', 'minify-css', 'minify-js');
 });

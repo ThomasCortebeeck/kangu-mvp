@@ -17,6 +17,8 @@
   ],
   "devDependencies": {
     "foundation-sites": "~6.0.5",
-    "motion-ui": "~1.1.1"
+    "motion-ui": "~1.1.1",
+    "wow": "wowjs#~1.1.2",
+    "animate.css": "animate-css#~3.4.0"
   }
 }

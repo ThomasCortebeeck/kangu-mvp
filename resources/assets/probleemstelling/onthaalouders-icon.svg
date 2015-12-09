@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="101px" height="101px" viewBox="0 0 101 101" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15855) - http://www.bohemiancoding.com/sketch -->
+    <title>Onthaalouders icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Mockups---version-0.1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="MVP---option-2" sketch:type="MSArtboardGroup" transform="translate(-1083.000000, -1020.000000)">
+            <g id="Probleemstelling" sketch:type="MSLayerGroup" transform="translate(-1.000000, 723.000000)">
+                <g id="Onthaalouders" transform="translate(1003.468521, 276.000000)" sketch:type="MSShapeGroup">
+                    <g id="Content" transform="translate(0.531479, 0.500000)">
+                        <g id="Onthaalouders-icon" transform="translate(80.000000, 21.000000)">
+                            <circle id="Oval-32" fill="#4AA0D5" cx="50.658858" cy="50" r="50"></circle>
+                            <g id="Icon" transform="translate(25.658858, 29.452055)" stroke="#FFFFFF" stroke-width="1.5" stroke-linejoin="round">
+                                <path d="M17.5085616,23.9308647 L4.66609589,23.9308647 L4.66609589,41.0541524 L45.3339041,41.0541524 L45.3339041,23.9308647 L32.4914384,23.9308647" id="Stroke-5829"></path>
+                                <path d="M16.4383562,23.9308647 L0.385273973,23.9308647 L6.80650685,8.94798801 L19.9743151,8.94798801" id="Stroke-5830"></path>
+                                <path d="M30.1273545,8.94798801 L43.1924229,8.94798801 L49.6136558,23.9308647 L33.5605736,23.9308647" id="Stroke-5831"></path>
+                                <path d="M13.2277397,0.385273973 L8.94691781,0.385273973 L8.94691781,8.94691781 L13.2277397,8.94691781 L13.2277397,0.385273973 Z" id="Stroke-5832"></path>
+                                <path d="M6.83989726,0 L15.3672945,0" id="Stroke-5833" stroke-linecap="round"></path>
+                                <path d="M41.0530822,0.385273973 L36.7722603,0.385273973 L36.7722603,8.94691781 L41.0530822,8.94691781 L41.0530822,0.385273973 Z" id="Stroke-5834"></path>
+                                <path d="M34.6652397,0 L43.192637,0" id="Stroke-5835" stroke-linecap="round"></path>
+                                <path d="M32.4914384,17.5085616 L17.5085616,17.5085616 L17.5085616,41.0530822 L32.4914384,41.0530822 L32.4914384,17.5085616 Z" id="Stroke-5836" stroke-linecap="round"></path>
+                                <path d="M25,2.57063356 L36.7722603,17.5085616 L13.2277397,17.5085616 L25,2.57063356 L25,2.57063356 Z" id="Stroke-5837" stroke-linecap="round"></path>
+                                <path d="M41.0530822,32.4914384 L36.7722603,32.4914384 L36.7722603,28.2106164 L41.0530822,28.2106164 L41.0530822,32.4914384 Z" id="Stroke-5838"></path>
+                                <path d="M13.2277397,32.4914384 L8.94691781,32.4914384 L8.94691781,28.2106164 L13.2277397,28.2106164 L13.2277397,32.4914384 Z" id="Stroke-5839"></path>
+                                <path d="M28.2106164,28.2106164 L21.7893836,28.2106164 L21.7893836,41.0530822 L28.2106164,41.0530822 L28.2106164,28.2106164 Z" id="Stroke-5840"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
