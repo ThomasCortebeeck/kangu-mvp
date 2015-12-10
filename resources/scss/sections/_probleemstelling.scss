@@ -1,0 +1,63 @@
+.full-width-probleemstelling {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: initial;
+	background-color: $light-grey;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.probleemstelling-card {
+
+	ul {
+		background-color: $white;
+		border: 1px solid #D8D8D8;
+		border-radius: 3px;
+		margin: 0;
+
+		li {
+			font-family: "sofia-pro-soft", sans-serif;
+			font-weight: regular;
+			font-size: rem-calc(16);
+			list-style-type: none;
+			color: $text-dark-grey;
+			text-align: center;
+			padding: 10px 0 10px 0;
+		}
+
+		li:first-child {
+			margin-top: 15px;
+			margin-bottom: 15px;
+		}
+
+		li:nth-child(2) {
+			border-top: 1px solid #D8D8D8;
+			border-bottom: 1px solid #D8D8D8;
+		}
+
+		li:last-child {
+			border-top: 1px solid #D8D8D8;
+		}
+	}
+}
+
+@media screen and #{breakpoint(small only)} {
+	.probleemstelling-card {
+		margin-bottom: 30px;
+	}
+
+	.full-width-probleemstelling {
+		padding-bottom: 30px;
+	}
+}
+
+@media screen and #{breakpoint(medium only)} {
+	.probleemstelling-card {
+		margin-bottom: 30px;
+	}
+
+	.full-width-probleemstelling {
+		padding-bottom: 30px;
+	}
+}
