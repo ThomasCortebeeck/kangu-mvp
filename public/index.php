@@ -125,9 +125,9 @@
 
             <div class="large-12 small-centered columns show-for-medium-up hide-for-small-only">
                 <div class="group">
-                    <div class="een"><h3>50%</h3></div>
-                    <div class="twee"><h3>40%</h3></div>
-                    <div class="drie"><h3>10%</h3></div>
+                    <div class="een animate graphani"><h3>50%</h3></div>
+                    <div class="twee animate graphani"><h3>40%</h3></div>
+                    <div class="drie animate graphani"><h3>10%</h3></div>
                 </div>
             </div>
 
@@ -245,23 +245,23 @@
     <script src="js/custom.min.js"></script>
     <script src="https://use.typekit.net/vnw3zje.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
-
+    
     <script>
         $("#email-form").submit(function(e) {
 
-            var url = "php-files/email.php"; // the script where you handle the form input.
+            var url = "php-files/email.php";
 
             $.ajax({
                    type: "POST",
                    url: url,
-                   data: $("#email-form").serialize(), // serializes the form's elements.
+                   data: $("#email-form").serialize(),
                    success: function(data)
                    {
                        $('#email-input').val('');
                    }
                  });
 
-            e.preventDefault(); // avoid to execute the actual submit of the form.
+            e.preventDefault();
         });
     </script>
   </body>

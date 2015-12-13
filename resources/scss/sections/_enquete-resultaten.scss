@@ -20,6 +20,9 @@
 		background-color: #CCE2EA;
 		border-radius: 5px 0 0 5px;
 		float: left;
+		animation-name: hide, ani-een;
+		animation-duration: 0s, 1s;
+		animation-delay: 0s, 0s;
 	}
 
 	.twee {
@@ -27,6 +30,9 @@
 		height: 60px;
 		background-color: #9AC4D5;
 		float: left;
+		animation-name: hide, ani-twee;
+		animation-duration: 1s, 1s;
+		animation-delay: 0s, 1s;
 	}
 
 	.drie {
@@ -35,6 +41,9 @@
 		background-color: #65A6BF;
 		border-radius: 0 5px 5px 0;
 		float: left;
+		animation-name: hide, ani-drie;
+		animation-duration: 2s, 1s;
+		animation-delay: 0s, 2s;
 	}
 }
 
@@ -44,6 +53,35 @@ h3 {
   font-size: 20px;
   color: white;
   line-height: 60px;
+}
+
+@keyframes hide {
+    0% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+@keyframes text-easeIn {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes ani-een {
+    0% {width: 0%;}
+    1% {width: 0%;}
+    100% {width: 50%;}
+}
+
+@keyframes ani-twee {
+    0% {width: 0%;}
+    1% {width: 0%;}
+    100% {width: 40%;}
+}
+
+@keyframes ani-drie {
+    0% {width: 0%;}
+    1% {width: 0%;}
+    100% {width: 10%;}
 }
 
 // Creation of the pie-chart
