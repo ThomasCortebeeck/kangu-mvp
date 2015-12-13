@@ -10,14 +10,16 @@
 	border-bottom: 1px solid #D8D8D8;
 }
 
+// Creation of the bar-chart
+
 .group {
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
 
 	.een {
 		width: 50%;
 		height: 60px;
-		background-color: #CCE2EA;
+		background-color: rgba($dark-blue, 0.4);
 		border-radius: 5px 0 0 5px;
 		float: left;
 		animation-name: hide, ani-een;
@@ -28,7 +30,7 @@
 	.twee {
 		width: 40%;
 		height: 60px;
-		background-color: #9AC4D5;
+		background-color: rgba($dark-blue, 0.6);
 		float: left;
 		animation-name: hide, ani-twee;
 		animation-duration: 1s, 1s;
@@ -38,7 +40,7 @@
 	.drie {
 		width: 10%;
 		height: 60px;
-		background-color: #65A6BF;
+		background-color: rgba($dark-blue, 0.8);
 		border-radius: 0 5px 5px 0;
 		float: left;
 		animation-name: hide, ani-drie;
@@ -54,6 +56,66 @@ h3 {
   color: white;
   line-height: 60px;
 }
+
+#bar-chart {
+	height: 60px;
+}
+
+#bar-chart-legend {
+	height: 20px;
+	margin-top: 40px;
+
+	ul {
+		width: 100%;
+		margin: 0;
+		display: table;
+
+		li {
+			list-style-type: none;
+			display: table-cell;
+			width: 33.333333333%;
+			font-family: "open-sans", sans-serif;
+			color: $text-dark-grey;
+			font-size: rem-calc(16);
+		}
+
+		li svg {
+			width: 20px;
+			height: 20px;
+			margin-right: 10px;
+
+			rect {
+				border-radius: 3px;
+				width: 20px;
+				height: 20px;
+				ry: 3px;
+				rx: 3px;
+			}
+		}
+
+		li:first-child {
+			fill: rgba($dark-blue, 0.4); 
+			text-align: left;
+		}
+
+		li:nth-child(2) {
+			fill: rgba($dark-blue, 0.6); 
+		}
+
+		li:nth-child(3) {
+			fill: rgba($dark-blue, 0.8);
+			text-align: right;
+		}
+	}
+}
+
+@media screen and #{breakpoint(medium down)} {
+	#bar-chart-legend ul li {
+		font-size: rem-calc(14);
+	}
+}
+
+// Animation of the bar-chart
 
 @keyframes hide {
     0% {opacity: 0;}
@@ -123,12 +185,10 @@ h3 {
 
 	li:nth-child(2) svg rect {
 		fill: rgba($dark-blue, 0.6); 
-		border-radius: 3px;
 	}
 
 	li:nth-child(3) svg rect {
 		fill: rgba($dark-blue, 0.8); 
-		border-radius: 3px;
 	}
 
 	li {

@@ -123,13 +123,32 @@
                 <p class="subline-dark-grey">Om te bepalen of er wel degelijk een publiek aanwezig voor onze oplossing hebben we een klein deel van onze enquête toegewijd aan deze stelling, waaruit het volgende is gebleken.</p>
             </div>
 
-            <div class="large-12 small-centered columns show-for-medium-up hide-for-small-only">
+            <div id="bar-chart" class="medium-9 large-9 small-centered columns show-for-medium-up hide-for-small-only">
                 <div class="group">
                     <div class="een animate graphani"><h3>50%</h3></div>
                     <div class="twee animate graphani"><h3>40%</h3></div>
                     <div class="drie animate graphani"><h3>10%</h3></div>
                 </div>
             </div>
+
+            <div id="bar-chart-legend" class="medium-11 large-9 small-centered columns show-for-medium-up hide-for-small-only">
+                <ul>
+                    <li>
+                        <svg width="20" height="20"><rect/></svg>
+                        <span>Niet-gebruikers</span>
+                    </li>
+
+                    <li>
+                        <svg width="20" height="20"><rect/></svg>
+                        <span>Ouders die opvang zoeken</span>
+                    </li>
+
+                    <li>
+                        <svg width="20" height="20"><rect/></svg>
+                        <span>Ouders die opvang aanbieden</span>
+                    </li>
+                </ul>
+            </div>            
 
             <div class="large-12 small-centered columns show-for-small-only">
                 <div id="piechart"></div>
