@@ -39,10 +39,25 @@
 	width: 40px;
 }
 
-.icon {
-	margin: 0 6px 0 6px;
-}
-
 .social-icon-container {
 	text-align: center;
+
+	.icon {
+		margin: 0 6px 0 6px;
+	}
+
+	a {
+		width: 40px;
+		height: 40px;
+	}
+
+	svg {
+		width: 40px;
+		height: 40px;
+		fill: $white;
+
+		&:hover {
+			fill: rgba($white, 0.75);
+		}
+	}
 }

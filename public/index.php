@@ -202,111 +202,67 @@
 
             <div class="large-12 small-centered columns">
                 <div class="small-12 medium-6 large-4 small-centered columns">
-                    <div class="input-group">
-                        <input class="input-group-field" placeholder="somename@gmail.com" type="text">
-                        <div class="input-group-button">
-                            <input type="submit" class="button" value="Verzenden">
+                    <form id="email-form" method="post" action="php-files/email.php">
+                        <div class="input-group">
+                            <input class="input-group-field" name="email" id="email-input" placeholder="somename@gmail.com" type="email">
+                            <div class="input-group-button">
+                                <input type="submit" class="button" name="submit" value="Verzenden">
+                            </div>
                         </div>
-                    </div>
+                    </form>
                 </div>
             </div> 
 
             <hr class="social-divider"></hr>
 
             <div class="social-icon-container">
-                <a href="#">
-                    <img class="icon" src="assets/updates/facebook-icon.svg">
+                <a href="#" class="icon">
+                    <svg version="1.1" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+                        <path d="M20,0C9,0,0,9,0,20s9,20,20,20s20-9,20-20S31,0,20,0z M26,19.2h-3.5c0,5,0,11.7,0,11.7h-5c0,0,0-6.6,0-11.7h-3.3v-3.3h3.3v-1.9c0-1.8,0.6-4.7,4.4-4.7l3.9,0v3.8c0,0-1.9,0-2.3,0c-0.4,0-1,0.2-1,1.1v1.7h3.9L26,19.2z"/>
+                    </svg>
                 </a>
 
-                <a href="#">
-                    <img class="icon" src="assets/updates/twitter-icon.svg">
+                <a href="#" class="icon">
+                    <svg viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+                        <path d="M20,0C9,0,0,9,0,20s9,20,20,20s20-9,20-20S31,0,20,0z M28.8,15.6c0,0.2,0,0.4,0,0.6
+                        c0,5.8-4.4,12.5-12.5,12.5c-2.5,0-4.8-0.7-6.7-2c2.3,0.3,4.6-0.3,6.5-1.8c-1.9,0-3.5-1.3-4.1-3c0.7,0.1,1.3,0.1,2-0.1
+                        c-2-0.4-3.5-2.2-3.5-4.3c0,0,0,0,0-0.1c0.6,0.3,1.3,0.5,2,0.5c-1.2-0.8-2-2.1-2-3.7c0-0.8,0.2-1.6,0.6-2.2c2.2,2.7,5.4,4.4,9,4.6C20,16.4,20,16,20,15.7c0-2.4,2-4.4,4.4-4.4c1.3,0,2.4,0.5,3.2,1.4c1-0.2,3.3-0.4,3.3-0.4C30.2,13.1,29.6,15,28.8,15.6z"/>
+                    </svg>
                 </a>
 
-                <a href="#">
-                    <img class="icon" src="assets/updates/mail-icon.svg">
+                <a href="#" class="icon">
+                    <svg viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+                        <path d="M20,0C9,0,0,9,0,20s9,20,20,20s20-9,20-20S31,0,20,0z M9.2,17.4l7.2,3.7l-7.2,4.3V17.4z
+                         M30.8,29.2H9.2v-1.8l8.9-5.3l1.9,1l1.9-1l8.9,5.2V29.2z M30.8,25.4l-7.2-4.2l7.2-3.7V25.4z M30.8,15.7L20,21.3L9.2,15.7v-2.8h21.7V15.7z"/>
+                    </svg>
                 </a>         
             </div>
         </div>
     </div>
 
     <script src="js/thirdparty.min.js"></script>
-    <script src="js/custom.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="js/custom.min.js"></script>
     <script src="https://use.typekit.net/vnw3zje.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
     <script>
-        var width = 300,
-        height = 300,
-        radius = Math.min(width, height) / 2;
+        $("#email-form").submit(function(e) {
 
-        var color = d3.scale.ordinal()
-            .range(["#65A6BF", "#9AC4D5", "#CCE2EA"]);
+            var url = "php-files/email.php"; // the script where you handle the form input.
 
-        var ring = d3.svg.arc()
-            .outerRadius(radius - 20)
-            .innerRadius(radius - 1000);
+            $.ajax({
+                   type: "POST",
+                   url: url,
+                   data: $("#email-form").serialize(), // serializes the form's elements.
+                   success: function(data)
+                   {
+                       $('#email-input').val('');
+                   }
+                 });
 
-        var ring2 = d3.svg.arc()
-          .outerRadius(radius)
-          .innerRadius(radius - 150);
-
-        var pie = d3.layout.pie()
-            .sort(null)
-            .startAngle(1.0*Math.PI)
-            .endAngle(3.0*Math.PI)
-            .value(function(d) { return d.procent; });
-
-        var data = [
-          {label:'10%', procent: 10},
-          {label: '40%', procent: 40},
-          {label: '50%', procent: 50}
-        ];
-
-        var svg = d3.select("#piechart").append("svg")
-            .attr("id", "chart")
-            .attr("width", width)
-            .attr("height", height)
-            .attr('viewBox', '0 0 '+width+' '+width)
-            .attr('perserveAspectRatio', 'xMinYMid')
-            .append("g")
-            .attr("transform", "translate(" + (width) / 2 + "," + (height) / 2 + ")");
-
-          data.forEach(function(d) {
-            d.procent = +d.procent;
-          });
-
-          var g = svg.selectAll(".ring")
-              .data(pie(data))
-            .enter().append("g")
-              .attr("class", "ring");
-
-          g.append("path")
-              .style("fill", function(d) { return color(d.data.label); })
-              .transition().delay(function(d, i) { return i * 500; }).duration(500)
-              .attrTween('d', function(d) {
-                 var i = d3.interpolate(d.startAngle+0.1, d.endAngle);
-                 return function(t) {
-                   d.endAngle = i(t);
-                   return ring(d);
-                 };
-              });
-
-          g.append("text")
-              .attr("transform", function(d) { return "translate(" + ring2.centroid(d) + ")"; })
-              .attr("dy", ".35em")
-              .attr("class", "d3-label")
-              .style("text-anchor", "middle")
-              .text(function(d) { return d.data.label; });
-
-        var aspect = width / height,
-            chart = $("#chart");
-        $(window).on("resize", function() {
-            var targetWidth = Math.min(width, chart.parent().width());
-            chart.attr("width", targetWidth);
-            chart.attr("height", targetWidth / aspect);
-        }).trigger('resize');
+            e.preventDefault(); // avoid to execute the actual submit of the form.
+        });
     </script>
   </body>
 </html>
