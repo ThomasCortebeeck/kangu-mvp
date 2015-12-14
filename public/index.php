@@ -103,7 +103,7 @@
 
              <div class="large-12 columns">
                 <div class="small-10 medium-10 large-10 small-centered columns">
-                    <img id="adverts-preview" class="animate fadeInUp" data-interchange="[assets/oplossing/adverts-preview-large-2x.jpg, default], [assets/oplossing/adverts-preview-small-2x.png, small], [assets/oplossing/adverts-preview-large-1x.jpg, medium], [assets/oplossing/adverts-preview-large-2x.jpg, large], [assets/oplossing/adverts-preview-large-2x.jpg, retina]">
+                    <img id="adverts-preview" class="animate zoomIn" data-interchange="[assets/oplossing/adverts-preview-large-2x.jpg, default], [assets/oplossing/adverts-preview-small-2x.png, small], [assets/oplossing/adverts-preview-large-1x.jpg, medium], [assets/oplossing/adverts-preview-large-2x.jpg, large], [assets/oplossing/adverts-preview-large-2x.jpg, retina]">
                     <noscript><img src="assets/oplossing/adverts-preview-large-1x.jpg"></noscript>
                 </div>
             </div>
@@ -187,17 +187,17 @@
 
             <div class="large-12 small-centered columns">
                 <div class="large-10 small-centered columns">
-                    <div class="small-12 medium-4 large-4 columns business-model-step animate zoomIn">
+                    <div class="small-12 medium-4 large-4 columns business-model-step">
                         <img src="assets/business_model/step-1-icon.svg">
                         <figcaption>Boeking</figcaption>
                     </div>
 
-                    <div class="small-12 medium-4 large-4 columns business-model-step animate zoomIn">
+                    <div class="small-12 medium-4 large-4 columns business-model-step">
                         <img src="assets/business_model/step-2-icon.svg">
                         <figcaption>Betaling</figcaption>
                     </div>
 
-                    <div class="small-12 medium-4 large-4 columns business-model-step animate zoomIn">
+                    <div class="small-12 medium-4 large-4 columns business-model-step">
                         <img src="assets/business_model/step-3-icon.svg">
                         <figcaption>Percentage</figcaption>
                     </div>
@@ -225,7 +225,7 @@
                         <div class="input-group">
                             <input class="input-group-field" name="email" id="email-input" placeholder="somename@gmail.com" type="email">
                             <div class="input-group-button">
-                                <input type="submit" class="button" name="submit" value="Verzenden">
+                                <input type="submit" class="button" name="submit" value="Subscribe">
                             </div>
                         </div>
                     </form>
@@ -235,13 +235,13 @@
             <hr class="social-divider"></hr>
 
             <div class="social-icon-container">
-                <a href="#" class="icon">
+                <a href="https://www.facebook.com/Kangu-1659271094353142/" class="icon">
                     <svg version="1.1" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
                         <path d="M20,0C9,0,0,9,0,20s9,20,20,20s20-9,20-20S31,0,20,0z M26,19.2h-3.5c0,5,0,11.7,0,11.7h-5c0,0,0-6.6,0-11.7h-3.3v-3.3h3.3v-1.9c0-1.8,0.6-4.7,4.4-4.7l3.9,0v3.8c0,0-1.9,0-2.3,0c-0.4,0-1,0.2-1,1.1v1.7h3.9L26,19.2z"/>
                     </svg>
                 </a>
 
-                <a href="#" class="icon">
+                <a href="https://twitter.com/kangu_be" class="icon">
                     <svg viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
                         <path d="M20,0C9,0,0,9,0,20s9,20,20,20s20-9,20-20S31,0,20,0z M28.8,15.6c0,0.2,0,0.4,0,0.6
                         c0,5.8-4.4,12.5-12.5,12.5c-2.5,0-4.8-0.7-6.7-2c2.3,0.3,4.6-0.3,6.5-1.8c-1.9,0-3.5-1.3-4.1-3c0.7,0.1,1.3,0.1,2-0.1
@@ -249,7 +249,7 @@
                     </svg>
                 </a>
 
-                <a href="#" class="icon">
+                <a href="mailto:info@kangu.be" class="icon">
                     <svg viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
                         <path d="M20,0C9,0,0,9,0,20s9,20,20,20s20-9,20-20S31,0,20,0z M9.2,17.4l7.2,3.7l-7.2,4.3V17.4z
                          M30.8,29.2H9.2v-1.8l8.9-5.3l1.9,1l1.9-1l8.9,5.2V29.2z M30.8,25.4l-7.2-4.2l7.2-3.7V25.4z M30.8,15.7L20,21.3L9.2,15.7v-2.8h21.7V15.7z"/>
