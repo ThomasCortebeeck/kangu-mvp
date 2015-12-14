@@ -17,3 +17,26 @@
 	color: $text-white;
 	font-size: rem-calc(85);
 }
+
+#sub-header-kangu {
+	font-family: "open-sans", sans-serif;
+	font-weight: 600;
+	color: $text-white;
+	font-size: rem-calc(30);
+}
+
+#header-text-container {
+	text-align: center;
+	width: 90%;
+}
+
+@media screen and #{breakpoint(medium down)} {
+	#header-kangu {
+		font-size: rem-calc(75);
+		margin-bottom: 30px;
+	}
+	#sub-header-kangu {
+		font-size: rem-calc(25);
+		line-height: 37.5px;
+	}
+}

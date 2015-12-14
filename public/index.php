@@ -27,7 +27,11 @@
                                    [assets/header/header-background-1920.jpg, only screen and (min-width: 1920px)], 
                                    [assets/header/header-background-1920.jpg, retina]">
 
-        <h1 id="header-kangu">kangu</h1>
+        <div id="header-text-container">
+            <h1 id="header-kangu" class="animate fadeInDown" data-wow-delay="0.2s">kangu</h1>
+            <h3 id="sub-header-kangu" class="animate fadeInDown" data-wow-delay="0.2s">Naschoolse ophaal- en opvang, 
+            voor ouders, door ouders.</h3>
+        </div>
     </div>
 
   <!--Probleemstelling section-->
@@ -115,7 +119,7 @@
     <div class="full-width-enquete-resultaten">
         <div class="row row-enquete-resultaten">
             <div class="large-12 small-centered columns">
-                <h1 class="header-dark-grey">Enquete resultaten</h1>
+                <h1 class="header-dark-grey">Enquête resultaten</h1>
                 <hr class="header-divider"></hr>
             </div>
 
