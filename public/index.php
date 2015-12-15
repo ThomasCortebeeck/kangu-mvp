@@ -129,9 +129,9 @@
 
             <div id="bar-chart" class="medium-9 large-9 small-centered columns show-for-medium-up hide-for-small-only">
                 <div class="group">
-                    <div class="een animate graphani"><h3>50%</h3></div>
-                    <div class="twee animate graphani"><h3>40%</h3></div>
-                    <div class="drie animate graphani"><h3>10%</h3></div>
+                    <div class="een animate graphani"><h3>48%</h3></div>
+                    <div class="twee animate graphani"><h3>41%</h3></div>
+                    <div class="drie animate graphani"><h3>11%</h3></div>
                 </div>
             </div>
 
@@ -272,19 +272,30 @@
     <script>
         $("#email-form").submit(function(e) {
 
-            var url = "php-files/email.php";
+            e.preventDefault();
 
-            $.ajax({
+            var url = "php-files/email.php";
+            var email = $('#email-input').val();
+
+            if(email){
+                $.ajax({
                    type: "POST",
                    url: url,
                    data: $("#email-form").serialize(),
                    success: function(data)
                    {
-                       $('#email-input').val('');
+                       // Set value of the e-mail input field to empty
+                       $("#email-input").delay(1000).queue(function (next) { 
+                            $(this).val('');
+                            next();
+                        });
+                   },
+                   error: function(data) {
+                        
                    }
-                 });
-
-            e.preventDefault();
+                });
+            }
+            
         });
     </script>
   </body>

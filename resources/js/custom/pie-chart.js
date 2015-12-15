@@ -20,9 +20,9 @@ var width = 300,
         .value(function(d) { return d.procent; });
 
     var data = [
-      {label:'10%', procent: 10},
-      {label: '40%', procent: 40},
-      {label: '50%', procent: 50}
+      {label:'11%', procent: 11},
+      {label: '41%', procent: 41},
+      {label: '48%', procent: 48}
     ];
 
     var svg = d3.select("#piechart").append("svg")
