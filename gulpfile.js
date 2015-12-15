@@ -44,7 +44,8 @@ gulp.task('concat-custom-js', function() {
     gulp.src([
         ('resources/js/custom/app.js'),
         ('resources/js/custom/wow.js'),
-        ('resources/js/custom/pie-chart.js')
+        ('resources/js/custom/pie-chart.js'),
+        ('resources/js/custom/form.js')
         ]).pipe(plumber())
             .pipe(concat('custom.js'))
             .pipe(gulp.dest('resources/js/custom'));

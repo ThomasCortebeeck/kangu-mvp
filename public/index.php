@@ -4,12 +4,26 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.gif" />
     <title>Kangu MVP version 0.1</title>
-    <link rel="stylesheet" href="css/minimum-viable-product.css">
+    <link rel="stylesheet" href="css/minimum-viable-product.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
   </head>
   <body>
+
+  <!-- NOTIFICATION -->
+
+    <!-- This website was built on foundation 6 using various resources and plugins.
+
+         Credit rolls *drum roll sound* .... now!:
+
+         Foundation 6 by ZURB: http://foundation.zurb.com/
+         Animate.css by Daniel Eden: https://github.com/daneden/animate.css/
+         Wow.js by Matt Aussaguel: https://github.com/matthieua/WOW
+         Typekit by Adobe: https://typekit.com/
+
+    -->
 
   <!--Header section-->
 
@@ -29,8 +43,7 @@
 
         <div id="header-text-container">
             <h1 id="header-kangu" class="animate fadeInDown" data-wow-delay="0.2s">kangu</h1>
-            <h3 id="sub-header-kangu" class="animate fadeInDown" data-wow-delay="0.2s">Naschoolse ophaal- en opvang, 
-            voor ouders, door ouders.</h3>
+            <h3 id="sub-header-kangu" class="animate fadeInDown" data-wow-delay="0.2s">Het platform om de ideale naschoolse opvang te vinden voor uw kind</h3>
         </div>
     </div>
 
@@ -44,7 +57,7 @@
             </div>
 
             <div class="large-10 large-centered columns">
-                <p class="subline-dark-grey">Jonge ouders hebben vaak onvoldoende tijd om hun kinderen op te halen aan het einde van de schooldag.</p>
+                <p class="subline-dark-grey">Jonge ouders beschikken regelmatig over onvoldoende tijd om hun kinderen op te halen aan de schoolpoort, hierdoor is het moeilijk om een geschikte opvang te voorzien</p>
             </div>
 
             <div class="small-12 medium-12 large-12 small-centered columns" data-equalizer="oplossingen">
@@ -102,7 +115,7 @@
             </div>
 
             <div class="large-10 small-centered columns">
-                <p class="subline-dark-grey">Een online platform dat ouders van gezinnen met jonge kinderen helpt bij het vinden van andere bereidwillige ouders om hun kinderen van een naschoolse ophaal- en opvang te voorzien tegen een kleine vergoeding.</p>
+                <p class="subline-dark-grey">Kangu is een online platform dat je helpt bij het vinden van een geschikte naschoolse ophaal- en opvang voorzien door ouders binnen dezelfde school</p>
             </div>
 
              <div class="large-12 columns">
@@ -124,7 +137,7 @@
             </div>
 
             <div class="large-10 small-centered columns">
-                <p class="subline-dark-grey">Om te bepalen of er wel degelijk een publiek aanwezig voor onze oplossing hebben we een klein deel van onze enquête toegewijd aan deze stelling, waaruit het volgende is gebleken.</p>
+                <p class="subline-dark-grey">Uit een bevraging met onze doelgroep omtrent het gebruik van het platform is het volgende gebleken</p>
             </div>
 
             <div id="bar-chart" class="medium-9 large-9 small-centered columns show-for-medium-up hide-for-small-only">
@@ -186,7 +199,7 @@
             </div>
 
             <div class="large-10 small-centered columns">
-                <p class="subline-dark-grey">Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus, quis mollis nisl nunc et massa.</p>
+                <p class="subline-dark-grey">Om inkomsten te genereren heffen we transactiekosten op elke boeking die plaatsvindt op het platform</p>
             </div>
 
             <div class="large-12 small-centered columns">
@@ -268,35 +281,5 @@
     <script src="js/custom.min.js"></script>
     <script src="https://use.typekit.net/vnw3zje.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
-    
-    <script>
-        $("#email-form").submit(function(e) {
-
-            e.preventDefault();
-
-            var url = "php-files/email.php";
-            var email = $('#email-input').val();
-
-            if(email){
-                $.ajax({
-                   type: "POST",
-                   url: url,
-                   data: $("#email-form").serialize(),
-                   success: function(data)
-                   {
-                       // Set value of the e-mail input field to empty
-                       $("#email-input").delay(1000).queue(function (next) { 
-                            $(this).val('');
-                            next();
-                        });
-                   },
-                   error: function(data) {
-                        
-                   }
-                });
-            }
-            
-        });
-    </script>
   </body>
 </html>
