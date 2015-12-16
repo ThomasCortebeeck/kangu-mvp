@@ -4,12 +4,63 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kangu MVP version 0.1</title>
-    <link rel="stylesheet" href="css/minimum-viable-product.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.gif" />
+    <title>Kangu MVP</title>
+    <meta name="keywords" content="kangu, naschoolse, opvang, kinderen, basisschool, school, ouders">
+    <meta name="description" content="De eerste MVP versie van Kangu, gebouwd om het bestaansverhaal van Kangu te verspreiden.">
+    <meta name="author" content="Kangu"/>
+    <meta name="copyright" content="Kangu">
+    <meta name="robots" content="Index, NoFollow"/>
+    <meta name="geo.region" content="BE">
+    <meta name="language" content="nl">
+
+    <!-- DC card -->
+
+    <meta name="DC.Title" content="Kangu">
+    <meta name="DC.Creator" content="Kangu">
+    <meta name="DC.Subject" content="Kangu MVP">
+    <meta name="DC.Description" content="De eerste MVP versie van Kangu, gebouwd om het bestaansverhaal van Kangu te verspreiden.">
+    <meta name="DC.Publisher" content="Kangu">
+    <meta name="DC.Date" content="2015">
+    <meta name="DC.Language" content="nl">
+
+    <!--Twitter sharing card-->
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="http://mvp.kangu.be/">
+    <meta name="twitter:creator" content="@kangu_be">
+    <meta name="twitter:title" content="Kangu">
+    <meta name="twitter:description" content="De eerste MVP versie van Kangu, gebouwd om het bestaansverhaal van Kangu te verspreiden.">
+    <meta name="twitter:image" content="assets/social/twitter/sharing-card-alt.png">
+
+    <!-- Facebook sharing card -->
+    <meta property="og:title" content="Kangu" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://mvp.kangu.be/" />
+    <meta property="og:image" content="assets/social/facebook/sharing-card-alt.jpg" />
+    <meta property="og:description" content="De eerste MVP versie van Kangu, gebouwd om het bestaansverhaal van Kangu te verspreiden." /> 
+    <meta property="og:site_name" content="Kangu - Het platform om de ideale naschoolse opvang te vinden voor uw kind" />
+
+    <!--Required css and script links-->
+
+    <link rel="stylesheet" href="css/minimum-viable-product.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
   </head>
   <body>
+
+  <!-- NOTIFICATION -->
+
+    <!-- This website was built on foundation 6 using various resources and plugins.
+
+         Credit rolls *drum roll sound* .... now!:
+
+         Foundation 6 by ZURB: http://foundation.zurb.com/
+         Animate.css by Daniel Eden: https://github.com/daneden/animate.css/
+         Wow.js by Matt Aussaguel: https://github.com/matthieua/WOW
+         Typekit by Adobe: https://typekit.com/
+
+    -->
 
   <!--Header section-->
 
@@ -27,7 +78,10 @@
                                    [assets/header/header-background-1920.jpg, only screen and (min-width: 1920px)], 
                                    [assets/header/header-background-1920.jpg, retina]">
 
-        <h1 id="header-kangu">kangu</h1>
+        <div id="header-text-container">
+            <h1 id="header-kangu" class="animate fadeInDown" data-wow-delay="0.2s">kangu</h1>
+            <h3 id="sub-header-kangu" class="animate fadeInDown" data-wow-delay="0.2s">Het platform om de ideale naschoolse opvang te vinden voor uw kind</h3>
+        </div>
     </div>
 
   <!--Probleemstelling section-->
@@ -40,7 +94,7 @@
             </div>
 
             <div class="large-10 large-centered columns">
-                <p class="subline-dark-grey">Jonge ouders hebben vaak onvoldoende tijd om hun kinderen op te halen aan het einde van de schooldag.</p>
+                <p class="subline-dark-grey">Jonge ouders beschikken regelmatig over onvoldoende tijd om hun kinderen op te halen aan de schoolpoort, hierdoor is het moeilijk om een geschikte opvang te voorzien</p>
             </div>
 
             <div class="small-12 medium-12 large-12 small-centered columns" data-equalizer="oplossingen">
@@ -98,12 +152,12 @@
             </div>
 
             <div class="large-10 small-centered columns">
-                <p class="subline-dark-grey">Een online platform dat ouders van gezinnen met jonge kinderen helpt bij het vinden van andere bereidwillige ouders om hun kinderen van een naschoolse ophaal- en opvang te voorzien tegen een kleine vergoeding.</p>
+                <p class="subline-dark-grey">Kangu is een online platform dat je helpt bij het vinden van een geschikte naschoolse ophaal- en opvang voorzien door ouders binnen dezelfde school</p>
             </div>
 
              <div class="large-12 columns">
                 <div class="small-10 medium-10 large-10 small-centered columns">
-                    <img id="adverts-preview" class="animate fadeInUp" data-interchange="[assets/oplossing/adverts-preview-large-2x.jpg, default], [assets/oplossing/adverts-preview-small-2x.png, small], [assets/oplossing/adverts-preview-large-1x.jpg, medium], [assets/oplossing/adverts-preview-large-2x.jpg, large], [assets/oplossing/adverts-preview-large-2x.jpg, retina]">
+                    <img id="adverts-preview" class="animate zoomIn" data-interchange="[assets/oplossing/adverts-preview-large-2x.jpg, default], [assets/oplossing/adverts-preview-small-2x.png, small], [assets/oplossing/adverts-preview-large-1x.jpg, medium], [assets/oplossing/adverts-preview-large-2x.jpg, large], [assets/oplossing/adverts-preview-large-2x.jpg, retina]">
                     <noscript><img src="assets/oplossing/adverts-preview-large-1x.jpg"></noscript>
                 </div>
             </div>
@@ -115,19 +169,19 @@
     <div class="full-width-enquete-resultaten">
         <div class="row row-enquete-resultaten">
             <div class="large-12 small-centered columns">
-                <h1 class="header-dark-grey">Enquete resultaten</h1>
+                <h1 class="header-dark-grey">Enquête resultaten</h1>
                 <hr class="header-divider"></hr>
             </div>
 
             <div class="large-10 small-centered columns">
-                <p class="subline-dark-grey">Om te bepalen of er wel degelijk een publiek aanwezig voor onze oplossing hebben we een klein deel van onze enquête toegewijd aan deze stelling, waaruit het volgende is gebleken.</p>
+                <p class="subline-dark-grey">Uit een bevraging met onze doelgroep omtrent het gebruik van het platform is het volgende gebleken</p>
             </div>
 
             <div id="bar-chart" class="medium-9 large-9 small-centered columns show-for-medium-up hide-for-small-only">
                 <div class="group">
-                    <div class="een animate graphani"><h3>50%</h3></div>
-                    <div class="twee animate graphani"><h3>40%</h3></div>
-                    <div class="drie animate graphani"><h3>10%</h3></div>
+                    <div class="een animate graphani"><h3>48%</h3></div>
+                    <div class="twee animate graphani"><h3>41%</h3></div>
+                    <div class="drie animate graphani"><h3>11%</h3></div>
                 </div>
             </div>
 
@@ -182,22 +236,22 @@
             </div>
 
             <div class="large-10 small-centered columns">
-                <p class="subline-dark-grey">Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus, quis mollis nisl nunc et massa.</p>
+                <p class="subline-dark-grey">Om inkomsten te genereren heffen we transactiekosten op elke boeking die plaatsvindt op het platform</p>
             </div>
 
             <div class="large-12 small-centered columns">
                 <div class="large-10 small-centered columns">
-                    <div class="small-12 medium-4 large-4 columns business-model-step animate zoomIn">
+                    <div class="small-12 medium-4 large-4 columns business-model-step">
                         <img src="assets/business_model/step-1-icon.svg">
                         <figcaption>Boeking</figcaption>
                     </div>
 
-                    <div class="small-12 medium-4 large-4 columns business-model-step animate zoomIn">
+                    <div class="small-12 medium-4 large-4 columns business-model-step">
                         <img src="assets/business_model/step-2-icon.svg">
                         <figcaption>Betaling</figcaption>
                     </div>
 
-                    <div class="small-12 medium-4 large-4 columns business-model-step animate zoomIn">
+                    <div class="small-12 medium-4 large-4 columns business-model-step">
                         <img src="assets/business_model/step-3-icon.svg">
                         <figcaption>Percentage</figcaption>
                     </div>
@@ -225,7 +279,7 @@
                         <div class="input-group">
                             <input class="input-group-field" name="email" id="email-input" placeholder="somename@gmail.com" type="email">
                             <div class="input-group-button">
-                                <input type="submit" class="button" name="submit" value="Verzenden">
+                                <input type="submit" class="button" name="submit" value="Subscribe">
                             </div>
                         </div>
                     </form>
@@ -235,13 +289,13 @@
             <hr class="social-divider"></hr>
 
             <div class="social-icon-container">
-                <a href="#" class="icon">
+                <a href="https://www.facebook.com/Kangu-1659271094353142/" class="icon">
                     <svg version="1.1" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
                         <path d="M20,0C9,0,0,9,0,20s9,20,20,20s20-9,20-20S31,0,20,0z M26,19.2h-3.5c0,5,0,11.7,0,11.7h-5c0,0,0-6.6,0-11.7h-3.3v-3.3h3.3v-1.9c0-1.8,0.6-4.7,4.4-4.7l3.9,0v3.8c0,0-1.9,0-2.3,0c-0.4,0-1,0.2-1,1.1v1.7h3.9L26,19.2z"/>
                     </svg>
                 </a>
 
-                <a href="#" class="icon">
+                <a href="https://twitter.com/kangu_be" class="icon">
                     <svg viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
                         <path d="M20,0C9,0,0,9,0,20s9,20,20,20s20-9,20-20S31,0,20,0z M28.8,15.6c0,0.2,0,0.4,0,0.6
                         c0,5.8-4.4,12.5-12.5,12.5c-2.5,0-4.8-0.7-6.7-2c2.3,0.3,4.6-0.3,6.5-1.8c-1.9,0-3.5-1.3-4.1-3c0.7,0.1,1.3,0.1,2-0.1
@@ -249,7 +303,7 @@
                     </svg>
                 </a>
 
-                <a href="#" class="icon">
+                <a href="mailto:info@kangu.be" class="icon">
                     <svg viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
                         <path d="M20,0C9,0,0,9,0,20s9,20,20,20s20-9,20-20S31,0,20,0z M9.2,17.4l7.2,3.7l-7.2,4.3V17.4z
                          M30.8,29.2H9.2v-1.8l8.9-5.3l1.9,1l1.9-1l8.9,5.2V29.2z M30.8,25.4l-7.2-4.2l7.2-3.7V25.4z M30.8,15.7L20,21.3L9.2,15.7v-2.8h21.7V15.7z"/>
@@ -264,24 +318,5 @@
     <script src="js/custom.min.js"></script>
     <script src="https://use.typekit.net/vnw3zje.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
-    
-    <script>
-        $("#email-form").submit(function(e) {
-
-            var url = "php-files/email.php";
-
-            $.ajax({
-                   type: "POST",
-                   url: url,
-                   data: $("#email-form").serialize(),
-                   success: function(data)
-                   {
-                       $('#email-input').val('');
-                   }
-                 });
-
-            e.preventDefault();
-        });
-    </script>
   </body>
 </html>

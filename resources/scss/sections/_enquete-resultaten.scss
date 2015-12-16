@@ -17,7 +17,7 @@
   margin: 0 auto;
 
 	.een {
-		width: 50%;
+		width: 48%;
 		height: 60px;
 		background-color: rgba($dark-blue, 0.4);
 		border-radius: 5px 0 0 5px;
@@ -28,7 +28,7 @@
 	}
 
 	.twee {
-		width: 40%;
+		width: 41%;
 		height: 60px;
 		background-color: rgba($dark-blue, 0.6);
 		float: left;
@@ -38,7 +38,7 @@
 	}
 
 	.drie {
-		width: 10%;
+		width: 11%;
 		height: 60px;
 		background-color: rgba($dark-blue, 0.8);
 		border-radius: 0 5px 5px 0;
@@ -125,19 +125,19 @@ h3 {
 @keyframes ani-een {
     0% {width: 0%;}
     1% {width: 0%;}
-    100% {width: 50%;}
+    100% {width: 48%;}
 }
 
 @keyframes ani-twee {
     0% {width: 0%;}
     1% {width: 0%;}
-    100% {width: 40%;}
+    100% {width: 41%;}
 }
 
 @keyframes ani-drie {
     0% {width: 0%;}
     1% {width: 0%;}
-    100% {width: 10%;}
+    100% {width: 11%;}
 }
 
 // Creation of the pie-chart
