@@ -6,44 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.gif" />
     <title>Kangu MVP</title>
-    <meta name="keywords" content="kangu, naschoolse, opvang, kinderen, basisschool, school, ouders">
-    <meta name="description" content="De eerste MVP versie van Kangu, gebouwd om het bestaansverhaal van Kangu te verspreiden.">
+    <meta name="keywords" content="kangu, naschoolse, opvang, kinderen, basisschool, school, ouders"/>
+    <meta name="description" content="De eerste MVP versie van Kangu, gebouwd om het bestaansverhaal van Kangu te verspreiden."/>
     <meta name="author" content="Kangu"/>
-    <meta name="copyright" content="Kangu">
+    <meta name="copyright" content="Kangu"/>
     <meta name="robots" content="Index, NoFollow"/>
-    <meta name="geo.region" content="BE">
-    <meta name="language" content="nl">
+    <meta name="geo.region" content="BE"/>
+    <meta name="language" content="nl"/>
 
     <!-- DC card -->
 
-    <meta name="DC.Title" content="Kangu">
-    <meta name="DC.Creator" content="Kangu">
-    <meta name="DC.Subject" content="Kangu MVP">
-    <meta name="DC.Description" content="De eerste MVP versie van Kangu, gebouwd om het bestaansverhaal van Kangu te verspreiden.">
-    <meta name="DC.Publisher" content="Kangu">
-    <meta name="DC.Date" content="2015">
-    <meta name="DC.Language" content="nl">
+    <meta name="DC.Title" content="Kangu"/>
+    <meta name="DC.Creator" content="Kangu"/>
+    <meta name="DC.Subject" content="Kangu MVP"/>
+    <meta name="DC.Description" content="De eerste MVP versie van Kangu, gebouwd om het bestaansverhaal van Kangu te verspreiden."/>
+    <meta name="DC.Publisher" content="Kangu"/>
+    <meta name="DC.Date" content="2015"/>
+    <meta name="DC.Language" content="nl"/>
 
     <!--Twitter sharing card-->
 
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="http://mvp.kangu.be/">
-    <meta name="twitter:creator" content="@kangu_be">
-    <meta name="twitter:title" content="Kangu">
-    <meta name="twitter:description" content="De eerste MVP versie van Kangu, gebouwd om het bestaansverhaal van Kangu te verspreiden.">
-    <meta name="twitter:image" content="assets/social/twitter/sharing-card.png">
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:site" content="http://mvp.kangu.be/"/>
+    <meta name="twitter:creator" content="@kangu_be"/>
+    <meta name="twitter:title" content="Kangu"/>
+    <meta name="twitter:description" content="De eerste MVP versie van Kangu, gebouwd om het bestaansverhaal van Kangu te verspreiden."/>
+    <meta name="twitter:image" content="assets/social/twitter/sharing-card.png"/>
 
     <!-- Facebook sharing card -->
-    <meta property="og:title" content="Kangu">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="http://mvp.kangu.be/">
-    <meta property="og:image" content="assets/social/facebook/sharing-card.jpg">
-    <meta property="og:description" content="De eerste MVP versie van Kangu, gebouwd om het bestaansverhaal van Kangu te verspreiden."> 
-    <meta property="og:site_name" content="Kangu - Het platform om de ideale naschoolse opvang te vinden voor uw kind">
+    <meta property="og:title" content="Kangu"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://mvp.kangu.be/"/>
+    <meta property="og:image" content="assets/social/facebook/sharing-card.jpg"/>
+    <meta property="og:description" content="De eerste MVP versie van Kangu, gebouwd om het bestaansverhaal van Kangu te verspreiden."/> 
+    <meta property="og:site_name" content="Kangu - Het platform om de ideale naschoolse opvang te vinden voor uw kind"/>
 
     <!--Required css and script links-->
 
-    <link rel="stylesheet" href="css/minimum-viable-product.css">
+    <link rel="stylesheet" href="css/minimum-viable-product.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
   </head>
