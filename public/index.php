@@ -31,15 +31,15 @@
     <meta name="twitter:creator" content="@kangu_be">
     <meta name="twitter:title" content="Kangu">
     <meta name="twitter:description" content="De eerste MVP versie van Kangu, gebouwd om het bestaansverhaal van Kangu te verspreiden.">
-    <meta name="twitter:image" content="assets/social/twitter/sharing-card-alt.png">
+    <meta name="twitter:image" content="assets/social/twitter/sharing-card.png">
 
     <!-- Facebook sharing card -->
-    <meta property="og:title" content="Kangu" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://mvp.kangu.be/" />
-    <meta property="og:image" content="assets/social/facebook/sharing-card-alt.jpg" />
-    <meta property="og:description" content="De eerste MVP versie van Kangu, gebouwd om het bestaansverhaal van Kangu te verspreiden." /> 
-    <meta property="og:site_name" content="Kangu - Het platform om de ideale naschoolse opvang te vinden voor uw kind" />
+    <meta property="og:title" content="Kangu">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://mvp.kangu.be/">
+    <meta property="og:image" content="assets/social/facebook/sharing-card.jpg">
+    <meta property="og:description" content="De eerste MVP versie van Kangu, gebouwd om het bestaansverhaal van Kangu te verspreiden."> 
+    <meta property="og:site_name" content="Kangu - Het platform om de ideale naschoolse opvang te vinden voor uw kind">
 
     <!--Required css and script links-->
 
