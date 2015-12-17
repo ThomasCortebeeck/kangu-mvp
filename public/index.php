@@ -31,19 +31,19 @@
     <meta name="twitter:creator" content="@kangu_be">
     <meta name="twitter:title" content="Kangu">
     <meta name="twitter:description" content="De eerste MVP versie van Kangu, gebouwd om het bestaansverhaal van Kangu te verspreiden.">
-    <meta name="twitter:image" content="assets/social/twitter/sharing-card-alt.png">
+    <meta name="twitter:image" content="assets/social/twitter/sharing-card.png">
 
     <!-- Facebook sharing card -->
-    <meta property="og:title" content="Kangu" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://mvp.kangu.be/" />
-    <meta property="og:image" content="assets/social/facebook/sharing-card-alt.jpg" />
-    <meta property="og:description" content="De eerste MVP versie van Kangu, gebouwd om het bestaansverhaal van Kangu te verspreiden." /> 
-    <meta property="og:site_name" content="Kangu - Het platform om de ideale naschoolse opvang te vinden voor uw kind" />
+    <meta property="og:title" content="Kangu">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://mvp.kangu.be/">
+    <meta property="og:image" content="assets/social/facebook/sharing-card.jpg">
+    <meta property="og:description" content="De eerste MVP versie van Kangu, gebouwd om het bestaansverhaal van Kangu te verspreiden."> 
+    <meta property="og:site_name" content="Kangu - Het platform om de ideale naschoolse opvang te vinden voor uw kind">
 
     <!--Required css and script links-->
 
-    <link rel="stylesheet" href="css/minimum-viable-product.min.css">
+    <link rel="stylesheet" href="css/minimum-viable-product.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
   </head>
@@ -80,7 +80,7 @@
 
         <div id="header-text-container">
             <h1 id="header-kangu" class="animate fadeInDown" data-wow-delay="0.2s">kangu</h1>
-            <h3 id="sub-header-kangu" class="animate fadeInDown" data-wow-delay="0.2s">Het platform om de ideale naschoolse opvang te vinden voor uw kind</h3>
+            <h3 id="sub-header-kangu" class="animate fadeInDown" data-wow-delay="0.2s">Het platform om de ideale naschoolse opvang te vinden</h3>
         </div>
     </div>
 
@@ -94,7 +94,7 @@
             </div>
 
             <div class="large-10 large-centered columns">
-                <p class="subline-dark-grey">Jonge ouders beschikken regelmatig over onvoldoende tijd om hun kinderen op te halen aan de schoolpoort, hierdoor is het moeilijk om een geschikte opvang te voorzien</p>
+                <p class="subline-dark-grey">Jonge ouders beschikken regelmatig over onvoldoende tijd om hun kinderen op te halen aan de schoolpoort en hebben vaak moeilijkheden om een geschikte opvang te voorzien</p>
             </div>
 
             <div class="small-12 medium-12 large-12 small-centered columns" data-equalizer="oplossingen">
