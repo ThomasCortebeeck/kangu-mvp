@@ -43,7 +43,7 @@
 
     <!--Required css and script links-->
 
-    <link rel="stylesheet" href="css/minimum-viable-product.min.css">
+    <link rel="stylesheet" href="css/minimum-viable-product.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
   </head>
@@ -80,7 +80,7 @@
 
         <div id="header-text-container">
             <h1 id="header-kangu" class="animate fadeInDown" data-wow-delay="0.2s">kangu</h1>
-            <h3 id="sub-header-kangu" class="animate fadeInDown" data-wow-delay="0.2s">Het platform om de ideale naschoolse opvang te vinden voor uw kind</h3>
+            <h3 id="sub-header-kangu" class="animate fadeInDown" data-wow-delay="0.2s">Het platform om de ideale naschoolse opvang te vinden</h3>
         </div>
     </div>
 

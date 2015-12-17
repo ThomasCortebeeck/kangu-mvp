@@ -27,7 +27,7 @@
 
 #header-text-container {
 	text-align: center;
-	width: 90%;
+	width: 60%;
 }
 
 @media screen and #{breakpoint(medium down)} {
@@ -38,5 +38,8 @@
 	#sub-header-kangu {
 		font-size: rem-calc(25);
 		line-height: 37.5px;
+	}
+	#header-text-container {
+		width: 90%;
 	}
 }
