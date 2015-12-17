@@ -94,7 +94,7 @@
             </div>
 
             <div class="large-10 large-centered columns">
-                <p class="subline-dark-grey">Jonge ouders beschikken regelmatig over onvoldoende tijd om hun kinderen op te halen aan de schoolpoort, hierdoor is het moeilijk om een geschikte opvang te voorzien</p>
+                <p class="subline-dark-grey">Jonge ouders beschikken regelmatig over onvoldoende tijd om hun kinderen op te halen aan de schoolpoort en hebben vaak moeilijkheden om een geschikte opvang te voorzien</p>
             </div>
 
             <div class="small-12 medium-12 large-12 small-centered columns" data-equalizer="oplossingen">
